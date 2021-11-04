@@ -89,13 +89,51 @@ namespace CsFormsGG102_S_Ana
         {
             Application.Exit();
         }
+        private void btnCollaps_Click(object sender, EventArgs e)
+        {
+            if (gbSol.Visible == true)
+            {
+                gbSol.Visible = false;
+                btnCollaps.Text = "GOSTER";
+            }
+            else if (gbSol.Visible == false)
+            {
+                gbSol.Visible = true;
+                btnCollaps.Text = "GIZLE";
+            }
+        }
         #endregion
 
+        #region Form Islemleri
         private void btnGonderProp_Click(object sender, EventArgs e)
         {
             frmGonderProp frm = new frmGonderProp();
             frm.MdiParent = Form.ActiveForm;
             frm.WindowState = FormWindowState.Maximized;
+            frm.Show();
+        }
+
+        private void btnGonderCons_Click(object sender, EventArgs e)
+        {
+            frmGonderCons frm = new frmGonderCons();
+            frm.MdiParent = Form.ActiveForm;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.Show();
+        }
+
+        #endregion
+
+        private void btnUrunFiyat_Click(object sender, EventArgs e)
+        {
+            frmUrunFiyat frm = new frmUrunFiyat();
+            frm.MdiParent = Form.ActiveForm;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.Show();
+        }
+
+        private void btnUrunSorgula_Click(object sender, EventArgs e)
+        {
+            UrunKDV frm = new UrunKDV();
             frm.Show();
         }
     }

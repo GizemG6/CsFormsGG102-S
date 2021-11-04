@@ -112,11 +112,23 @@
     <Compile Include="Entity\Territories.cs">
       <DependentUpon>NorthwindModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="FormIslemleri\frmAlCons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIslemleri\frmAlCons.Designer.cs">
+      <DependentUpon>frmAlCons.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormIslemleri\frmAlProp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormIslemleri\frmAlProp.Designer.cs">
       <DependentUpon>frmAlProp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIslemleri\frmGonderCons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIslemleri\frmGonderCons.Designer.cs">
+      <DependentUpon>frmGonderCons.cs</DependentUpon>
     </Compile>
     <Compile Include="FormIslemleri\frmGonderProp.cs">
       <SubType>Form</SubType>
@@ -124,17 +136,59 @@
     <Compile Include="FormIslemleri\frmGonderProp.Designer.cs">
       <DependentUpon>frmGonderProp.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormIslemleri\frmUrunFiyat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIslemleri\frmUrunFiyat.Designer.cs">
+      <DependentUpon>frmUrunFiyat.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormIslemleri\ModelKisi.cs" />
+    <Compile Include="FormIslemleri\UrunFiyatKDVHesabi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIslemleri\UrunFiyatKDVHesabi.Designer.cs">
+      <DependentUpon>UrunFiyatKDVHesabi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIslemleri\UrunKDV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIslemleri\UrunKDV.Designer.cs">
+      <DependentUpon>UrunKDV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgreniIsleri\frmBolumGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgreniIsleri\frmBolumGiris.Designer.cs">
+      <DependentUpon>frmBolumGiris.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AnaSayfa.resx">
       <DependentUpon>AnaSayfa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormIslemleri\frmAlCons.resx">
+      <DependentUpon>frmAlCons.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormIslemleri\frmAlProp.resx">
       <DependentUpon>frmAlProp.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormIslemleri\frmGonderCons.resx">
+      <DependentUpon>frmGonderCons.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormIslemleri\frmGonderProp.resx">
       <DependentUpon>frmGonderProp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIslemleri\frmUrunFiyat.resx">
+      <DependentUpon>frmUrunFiyat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIslemleri\UrunFiyatKDVHesabi.resx">
+      <DependentUpon>UrunFiyatKDVHesabi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIslemleri\UrunKDV.resx">
+      <DependentUpon>UrunKDV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgreniIsleri\frmBolumGiris.resx">
+      <DependentUpon>frmBolumGiris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
