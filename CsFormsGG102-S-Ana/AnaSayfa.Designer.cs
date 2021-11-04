@@ -407,6 +407,7 @@ namespace CsFormsGG102_S_Ana
             this.btnDepartments.TabIndex = 1;
             this.btnDepartments.Text = "Bolum Giris";
             this.btnDepartments.UseVisualStyleBackColor = true;
+            this.btnDepartments.Click += new System.EventHandler(this.btnDepartments_Click);
             // 
             // AnaSayfa
             // 

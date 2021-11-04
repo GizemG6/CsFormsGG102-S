@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CsFormsGG102_S_Ana.OgreniIsleri;
 
 namespace CsFormsGG102_S_Ana
 {
@@ -135,6 +136,12 @@ namespace CsFormsGG102_S_Ana
         {
             UrunKDV frm = new UrunKDV();
             frm.Show();
+        }
+
+        private void btnDepartments_Click(object sender, EventArgs e)
+        {
+            frmBolumGiris frm = new frmBolumGiris;
+            frm.ShowDialog();
         }
     }
 }

@@ -161,6 +161,30 @@
     <Compile Include="OgreniIsleri\frmBolumGiris.Designer.cs">
       <DependentUpon>frmBolumGiris.cs</DependentUpon>
     </Compile>
+    <Compile Include="OgreniIsleri\OgrEntity\StudentsModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentsModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OgreniIsleri\OgrEntity\StudentsModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OgreniIsleri\OgrEntity\StudentsModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentsModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="OgreniIsleri\OgrEntity\tblOgrenciBilgileri.cs">
+      <DependentUpon>StudentsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OgreniIsleri\OgrEntity\tblSehirler.cs">
+      <DependentUpon>StudentsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OgreniIsleri\OgrEntity\tbl_Departments.cs">
+      <DependentUpon>StudentsModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AnaSayfa.resx">
@@ -206,6 +230,13 @@
     <None Include="Entity\NorthwindModel.edmx.diagram">
       <DependentUpon>NorthwindModel.edmx</DependentUpon>
     </None>
+    <EntityDeploy Include="OgreniIsleri\OgrEntity\StudentsModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>StudentsModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="OgreniIsleri\OgrEntity\StudentsModel.edmx.diagram">
+      <DependentUpon>StudentsModel.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -230,6 +261,16 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>NorthwindModel.edmx</DependentUpon>
       <LastGenOutput>NorthwindModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="OgreniIsleri\OgrEntity\StudentsModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StudentsModel.edmx</DependentUpon>
+      <LastGenOutput>StudentsModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="OgreniIsleri\OgrEntity\StudentsModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StudentsModel.edmx</DependentUpon>
+      <LastGenOutput>StudentsModel.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
