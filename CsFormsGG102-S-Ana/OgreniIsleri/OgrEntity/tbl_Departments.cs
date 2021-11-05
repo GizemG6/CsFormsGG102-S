@@ -22,6 +22,7 @@ namespace CsFormsGG102_S_Ana.OgreniIsleri.OgrEntity
     
         public int Id { get; set; }
         public string BolumAdi { get; set; }
+        public Nullable<bool> isActive { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<tblOgrenciBilgileri> tblOgrenciBilgileri { get; set; }

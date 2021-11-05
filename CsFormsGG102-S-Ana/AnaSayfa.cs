@@ -140,7 +140,7 @@ namespace CsFormsGG102_S_Ana
 
         private void btnDepartments_Click(object sender, EventArgs e)
         {
-            frmBolumGiris frm = new frmBolumGiris;
+            frmBolumGiris frm = new frmBolumGiris();
             frm.ShowDialog();
         }
     }
